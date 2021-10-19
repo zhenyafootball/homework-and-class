@@ -1,0 +1,52 @@
+.wrap{
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    column-gap: 20px;
+    row-gap: 20px;
+
+    flex-direction: column;
+
+}
+.header{
+    background-color:greenyellow ;
+    height:300px;
+    width: 1200px;
+
+}
+.xxx{
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+.menu{
+    background-color: rosybrown;
+    height: 500px;
+    width: 150px;
+
+
+}
+.box{
+    background-color: dodgerblue;
+    width: 200px;
+    height: 200px;
+    column-gap: 20px;
+    row-gap: 20px;
+
+
+
+}
+.gap{
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.footer{
+    background-color: greenyellow;
+    height: 300px;
+    width: 1200px;
+
+}
