@@ -5,7 +5,7 @@ flex-direction: column;
 .xxx{
 background-color: rosybrown;
     width: 1200px ;
-    height: 400px;
+    height: 250px;
 }
 .box{
     width: 200px;
@@ -28,5 +28,5 @@ background-color: aqua;
 .D{
 background-color: fuchsia;
     width: 1200px;
-    height: 600px;
+    height: 250px;
 }
