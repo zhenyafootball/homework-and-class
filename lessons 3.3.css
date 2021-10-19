@@ -1,0 +1,32 @@
+.wrap{
+display: flex;
+flex-direction: column;
+}
+.xxx{
+background-color: rosybrown;
+    width: 1200px ;
+    height: 400px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.okten{
+    display: flex;
+    justify-content: center;
+}
+.A{
+background-color: dodgerblue;
+
+}
+.B{
+background-color: greenyellow;
+}
+.C{
+background-color: aqua;
+}
+.D{
+background-color: fuchsia;
+    width: 1200px;
+    height: 600px;
+}
