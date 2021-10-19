@@ -1,0 +1,33 @@
+.wrap{
+    background-color: gray;
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+
+.box{
+
+}
+.A{
+
+    height: 150px;
+    width: 1200px;
+    background-color: aqua;
+}
+.B{
+    width: 700px;
+    height: 150px;
+    background-color: chartreuse;
+}
+.C{
+    background-color: blue;
+    width: 350px;
+    height: 150px;
+
+}
