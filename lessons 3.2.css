@@ -5,13 +5,14 @@
     align-content: flex-start;
     column-gap: 20px;
     row-gap: 20px;
+    width: 1200px;
 
     flex-direction: column;
 
 }
 .header{
     background-color:greenyellow ;
-    height:300px;
+    height:150px;
     width: 1200px;
 
 }
@@ -31,7 +32,7 @@
 .box{
     background-color: dodgerblue;
     width: 200px;
-    height: 200px;
+    height: 250px;
     column-gap: 20px;
     row-gap: 20px;
 
@@ -42,11 +43,12 @@
     flex-direction: column;
     column-gap: 20px;
     row-gap: 20px;
+    width: 500px;
 }
 
 .footer{
     background-color: greenyellow;
-    height: 300px;
+    height: 150px;
     width: 1200px;
 
 }
