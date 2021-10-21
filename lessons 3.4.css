@@ -14,6 +14,9 @@
     height: 200px;
 
 }
+.width{
+    width: 1200px;
+}
 .xxx{
     display: flex;
 }

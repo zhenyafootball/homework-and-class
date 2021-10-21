@@ -1,7 +1,6 @@
 .wrap{
     background-color: gray;
     height: 600px;
-    width: 1200px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -10,22 +9,24 @@
     row-gap: 20px;
 
 }
+.width{
+    width: 1200px;
+}
+.height{
+    height: 400px;
+}
 
-
-.A{
+.header{
 
     height: 150px;
-    width: 1200px;
     background-color: aqua;
 }
-.B{
+.Block{
     width: 700px;
-    height: 400px;
     background-color: chartreuse;
 }
-.C{
+.footer{
     background-color: blue;
     width: 480px;
-    height: 400px;
 
 }
