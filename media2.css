@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px) {
+   :root{
+       --aqua: red;
+   }
+    .soc-icon{
+        display: none;
+    }
+
+    .header__button{
+        display: block;
+
+    }
+}
