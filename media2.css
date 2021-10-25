@@ -10,4 +10,15 @@
         display: block;
 
     }
+    .goods__img {
+        height: 50px;
+        width: 70px;
+    }
+
+    .goods_three{
+        padding: 10px 10px 10px 20px;
+    }
+    .goods_two{
+        padding: 10px 10px 10px 20px;
+    }
 }
