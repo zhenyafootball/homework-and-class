@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /*font: inherit;*/
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Tinos', serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  /*content: none;*/
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  height: 100vh;
+  background: url("../image/bg.png") no-repeat center/cover;
+  justify-content: space-evenly;
+  position: relative;
+  width: 1200px;
+}
+
+.header__top {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__item img {
+  width: 20px;
+}
+
+.nav {
+  display: flex;
+  column-gap: 23px;
+}
+
+
+
+.nav__item a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  column-gap: 35px;
+}
+
+.header__phone {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  width: 155px;
+  border-left: 2px solid #FFFFFF;
+  padding-left: 15px;
+}
+.header__contact {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+
+}
+
+.header__button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 0 19px;
+  background-color: #ff7400;
+  height: 47px;
+  border: none;
+  cursor: pointer;
+}
+ .header__title{
+   font-weight: normal;
+   color: #d67e35;
+   margin-top: 203px;
+   max-width: 500px;
+ }
+
+.header__title h2 {
+  font-size: 50px;
+  line-height: 57px;
+  margin-left: 24px;
+}
+.header__title h1 {
+  font-size: 80px;
+  line-height: 92px;
+}
+.header__title p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.header__title p::before,
+.header__title p::after {
+  content: "";
+  display: block;
+  width: 61px;
+  height: 2px;
+  background-color: #c4c4c4;
+}
+.header__title p::before {
+  margin-right: 10px;
+}
+.header__title p::after{
+  margin-left: 10px;
+}
+
+.header__main .header__button{
+  margin-top: 35px;
+
+}
+.header__main_btn{
+  display: flex;
+  justify-content: center;
+
+}
+
+.nav__btn_mobile {
+   display: none;
+  width: 30px;
+  flex-direction: column;
+  row-gap: 4px;
+
+}
+.nav__btn_mobile div {
+  height: 3px;
+  background-color: #ff7400;
+  border-radius: 50px;
+}
+.wrap {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: -150px;
+  justify-content: space-evenly;
+
+
+
+}
+.block {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  display: block;
+  border: 10px;
+  text-align: center;
+
+
+}
+.block img {
+  width: 50px;
+  height: 50px;
+  /*border: 10px;*/
+  margin:25px ;
+  justify-content: center;
+}
+
+
+.block h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 20px;
+  color: #2C2C2C;
+}
+ .block p {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 15px;
+   text-align: center;
+
+   color: #656363;
+ }
