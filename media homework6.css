@@ -11,6 +11,10 @@
         padding: 0 10px;
 
     }
+    .header{
+         max-width: 340px;
+    }
+    
     .header__top {
         padding-top: 20px;
     }
