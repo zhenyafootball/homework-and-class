@@ -1,0 +1,124 @@
+.nav justify-content-end {
+
+    height: 100vh;
+    /*background: url("../image/bg.png") no-repeat center/cover;*/
+    justify-content: space-evenly;
+    position: relative;
+    width: 1200px;
+}
+.header__phone {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 155px;
+    border-left: 2px solid #FFFFFF;
+    padding-left: 15px;
+}
+.header__contact {
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+
+}
+
+.header__button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0 19px;
+    background-color: #ff7400;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+.wrap {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: -150px;
+    justify-content: space-evenly;
+
+
+
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 0 19px;
+    background-color: #ff7400;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+.header__title{
+    font-weight: normal;
+    color: #d67e35;
+    margin-top: 203px;
+    max-width: 500px;
+}
+
+.header__title h2 {
+    font-size: 50px;
+    line-height: 57px;
+    margin-left: 24px;
+}
+.header__title h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.header__title p::before,
+.header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #c4c4c4;
+}
+.header__title p::before {
+    margin-right: 10px;
+}
+.header__title p::after{
+    margin-left: 10px;
+}
+
+.header__main .header__button {
+    margin-top: 35px;
+}
+.card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: block;
+    border: 10px;
+    text-align: center;
+}
+.card img {
+    width: 50px;
+    height: 50px;
+    /*border: 10px;*/
+    margin:25px ;
+    justify-content: center;
+}
