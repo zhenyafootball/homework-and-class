@@ -1,0 +1,197 @@
+@media screen and (max-width: 1200px) {
+    .header__top {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__top {
+        width: 320px;
+    }
+    .bg-light {
+        background-color: black!important;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #f9fafb;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: #f9fafb;
+    }
+
+    .nav {
+        display: block;
+    }
+    .container {
+        display: block;
+
+
+    ;
+    }
+    img, svg {
+        margin: 10px;
+
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: block;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+
+    .me-2 {
+        height: 30px;
+        width: 320px;
+        justify-content: flex-end;
+    }
+    .d-flex {
+        align-items: flex-end;
+    }
+
+    .seach {
+        display: none;
+        width: 320px;
+        margin-top: 50px;
+
+        border-radius: 6px 0px 0px 6px;
+    }
+    .seach button {
+    display: none;
+    }
+    .seach image {
+        display: none;
+    }
+}
+    .image {
+        display: block;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 30px;
+        border: 20px;
+    }
+    .carousel-item active img {
+        height: 195px;
+    }
+
+    .carousel {
+
+        display: block;
+
+
+    }
+    .carousel__nav {
+        display: block;
+
+        margin-top: 400px;
+    }
+
+
+
+    .carousel-item {
+
+        background: url("../project/image/Mask Group2.png") no-repeat center/cover;
+
+    }
+    .blocks {
+        width: 50px;
+        height: 30px;
+
+        background: #F4F5FA;
+
+display: none;
+
+    }
+    .carousel-inner {
+        width: 50%;
+    }
+.carousel-item active img {
+    height: 3%;
+    width: 30%;
+}
+    .block1 {
+        align-items: flex-start;
+        justify-content: flex-start;
+        display: none;
+    }
+    .card {
+        margin-top: 200px;
+        width: 200px;
+        flex-direction: row;
+    }
+    .card-img, .card-img-bottom, .card-img-top {
+        width: 36%;
+    }
+    .top {
+        display: none;
+        width: 32%;
+        height: 184px;
+
+
+        background: #FFFFFF;
+        border: 1px solid #E1E5F8;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .top__card {
+        display: none;
+        height: 184px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+
+        background: #FFFFFF;
+        border: 1px solid #E1E5F8;
+        box-sizing: border-box;
+        border-radius: 6px;
+
+    }
+    .top__top {
+        align-content: space-between;
+        justify-content: space-between;
+        border: 50px;
+        margin: 40px;
+    }
+
+    .bottoms {
+        display: none;
+    }
+
+
+
+    .item {
+        display: none;
+
+    }
+    .item1 {
+        display: none;
+
+    }
+    .item__item {
+        display: block;
+
+    }
+    .item img {
+        width: 100px;
+        height: 90px;
+
+    }
+    .mono__img {
+        margin-top: 440px;
+        width: 320px;
+        border: 20px;
+    }
+
+    .mono__img img {
+        width: 320px;
+    }
+
+    .end__end {
+        margin-top: 140px;
+    }
+
+    .end__end img {
+        width: 320px;
+
+    }
