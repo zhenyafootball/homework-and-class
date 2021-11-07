@@ -305,7 +305,7 @@
 
 @media screen and (max-width: 320px) {
     .header__top {
-        max-width: 320px;
+        width: 310px;
     }
     .bg-light {
         background-color: black!important;
@@ -330,11 +330,18 @@
         align-items: flex-start;
         border: 30px;
         margin: 15px;
-    ;
-    }
-    img, svg {
-        margin: 10px;
 
+    }
+.container img {
+    height: 16px;
+
+    }
+    .tax img {
+        left: 0%;
+        right: 0%;
+        top: 5.47%;
+        bottom: 5.56%;
+        height: 20px;
     }
     .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
         display: block;
@@ -425,13 +432,20 @@
         line-height: 16px;
     }
     .carousel-item active img {
-        height: 195px;
+        height: 125px;
+        width: 150px;
+        display: none;
+    }
+    img, svg {
+        margin: 10px;
+        height: 86px;
+
     }
 
     .carousel {
-        width: 320px;
-        height: 330px;
-        justify-content: space-between;
+        width: 310px;
+        /*height: 330px;*/
+        /*justify-content: space-between;*/
         display: block;
 
 
@@ -439,17 +453,19 @@
     }
     .carousel__nav {
         display: block;
+        height: 150px;
         /*justify-content: space-between;*/
     }
 
 
 
     .carousel-item {
-        justify-content: flex-start;
-        align-items: flex-start;
+        /*justify-content: flex-start;*/
+        /*align-items: flex-start;*/
         background: url("../project/image/Mask Group2.png") no-repeat center/cover;
 
     }
+
     .block {
         width: 250px;
         display: none;
@@ -458,7 +474,8 @@
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-        padding: -40px;
+        /*padding: -40px;*/
+        margin-top: -30px;
 
     }
 
@@ -491,6 +508,7 @@
         margin-top: 165px;
         width: 200px;
         flex-direction: row;
+
     }
     .card-img, .card-img-bottom, .card-img-top {
         width: 36%;
@@ -526,11 +544,12 @@
         border: 50px;
         margin: 40px;
     }
+
     .div {
         display: block;
         margin: 20px;
         border: 10px;
-        margin-top:  270px;
+        margin-top:  -211px;
     }
 
     .bottoms {
@@ -554,11 +573,13 @@
         height: 10px;
         border: 10px;
         padding: 10px;
+        width: 310px;
 
     }
     .item {
         display: block;
-        margin-top: -140px;
+        margin-top: -155px;
+
     }
     .item1 {
         display: block;
@@ -579,13 +600,13 @@
     }
     .mono__img {
         display: block;
-        margin-top: 440px;
-        width: 320px;
+        /*margin-top: 440px;*/
+        width: 310px;
         border: 20px;
     }
 
     .mono__img img {
-        width: 320px;
+        width: 310px;
     }
     .mono__img p {
         width: 220px;
@@ -597,10 +618,11 @@
         width: 100px;
     }
     .end {
-        display: flex;
+        display: block;
         background-color: black;
         color: white;
         margin-top: 2256px;
+        width: 310px;
     }
     .end__end {
         display: block;
