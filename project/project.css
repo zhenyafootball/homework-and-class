@@ -14,12 +14,13 @@
 
 .nav {
     display: flex;
+    justify-content: space-evenly;
 }
 .container {
     display: flex;
 
     height: 30px;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: flex-start;
     border: 30px;
     margin: 15px;
@@ -37,17 +38,8 @@ margin: 10px;
 
 }
 
-[type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-    margin-top: 120px;
-}
-.navbar navbar-light {
-    width: 650px;
-    height: 20px;
-    left: 477px;
-    top: 159px;
-
-    background: #F4F5FA;
-    border-radius: 6px 0px 0px 6px;
+.mob {
+    display: flex;
 }
 
 
@@ -55,6 +47,7 @@ margin: 10px;
     height: 30px;
     width: 550px;
     justify-content: flex-end;
+    margin-top: 35px;
 }
 .d-flex {
     align-items: flex-end;
@@ -63,17 +56,67 @@ margin: 10px;
 .seach {
     display: flex;
     width: 1000px;
-    left: 477px;
-    top: 159px;
+
 
     border-radius: 6px 0px 0px 6px;
 }
+.button {
+    margin-top: 50px;
+}
+.type__name {
+    display: flex;
+    border: 10px;
+}
+.type__name img {
+    border: 10px;
+}
+.whatsapp {
+    display: flex;
+    background-color: #E1EFD0;
+    height: 30px;
+}
+.whatsapp img {
+    width: 15px;
+    height: 15px;
+}
+.nomer {
+    border: 10px;
+}
 .image {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
     margin-top: 30px;
     border: 20px;
+}
+.taxfree {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.tax {
+    display: flex;
+
+}
+.tax img {
+    left: 0%;
+    right: 0%;
+    top: 5.47%;
+    bottom: 5.56%;
+
+}
+.snow {
+    display: flex;
+    width: 69px;
+    height: 32px;
+    left: 1568px;
+    top: 170px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
 }
 .carousel-item active img {
     height: 195px;
@@ -81,16 +124,16 @@ margin: 10px;
 
 .carousel {
     width: 800px;
-    height: 195px;
+    height: 330px;
     justify-content: space-between;
-    align-items: flex-start;
     display: flex;
+
 
 
 }
 .carousel__nav {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 
@@ -101,22 +144,42 @@ margin: 10px;
     background: url("../project/image/Mask Group2.png") no-repeat center/cover;
 
 }
-.blocks {
+.block {
     width: 250px;
-    height: 190px;
-
+    display: block;
     background: #F4F5FA;
     border-radius: 10px;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
+    padding: -40px;
 
 }
+
+.card mb-3 {
+    margin-top: 268px;
+    display: block;
+    flex-direction: column;
+}
+.g-0, .gy-0 {
+    --bs-gutter-y: 0;
+    /*display: inline;*/
+    /*width: 500px;*/
+}
+.mb-3 {
+    display: contents;
+}
 .block1 {
-    align-items: flex-start;
-    justify-content: flex-start;
-    display: flex;
+    width: 256px;
+    height: 200px;
+    align-items: self-end;
+}
+
+.block2 {
+    width: 256px;
+    height: 200px;
+
+
 }
 .card {
  margin-top: 200px;
@@ -156,12 +219,25 @@ justify-content: flex-start;
     border: 50px;
     margin: 40px;
 }
+.div {
+    display: flex;
+    margin: 20px;
+    border: 10px;
+}
 
 .bottoms {
-    display: flex
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.kop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .bottoms__type {
-    margin-top: 140px;
+    /*margin-top: 140px;*/
 }
 
 
@@ -189,7 +265,12 @@ margin-top: 10px;
     height: 90px;
 
 }
+.mono {
+    display: flex;
+    margin: 30px;
+}
 .mono__img {
+    display: block;
     margin-top: 440px;
     width: 800px;
     border: 20px;
@@ -198,11 +279,24 @@ margin-top: 10px;
 .mono__img img {
     width: 1200px;
 }
+.mono__img p {
+    width: 220px;
 
+}
+.slovo {
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+.end {
+    display: flex;
+    background-color: black;
+    color: white;
+}
 .end__end {
-    margin-top: 140px;
+   display: block;
 }
 
 .end__end img {
-    width: 1200px;
+
 }

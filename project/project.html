@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
+    <meta name="viewport"22
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="media.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -81,12 +83,23 @@
                 для АКПП</p>
             </div>
             <img src="image/time%20(1)%201.png"alt="time">
-            <img src="image/Мы%20работаем_%20будни%20-%209_00-21_00%20сб.%20-%2010_00-15_00.png"alt="графік">
-            <img src="image/placeholder%201.png"alt="placeholder">
+            <div class="mob">
+          <div class="type">
+              <p>Мы работаем: будни<br> - 9:00-21:00 <br>
+                  сб. - 10:00-15:00</p>
+          </div>
+            <div class="type__name">
+                <img src="image/placeholder%201.png" alt="vector">
             <p>Невский пр-т, д. 45</p>
-            <img src="image/Group%20213.png "alt="group1">
-            <img src="image/Group%20114.png" alt="group2">
-            
+            </div>
+                <div class="whatsapp">
+                    <img src="image/whatsapp (2) 1.png">
+                    <p class="whatsapp__text">Напишите нам в WhatsApp</p>
+                </div>
+                <div class="nomer">
+                    <p>+7 383 291 92 86</p>
+                </div>
+            </div>
     </div>
 
 </div>
@@ -114,14 +127,27 @@
     </div>
 </nav>
     <div class="image">
-    <img src="image/Group%201538.png" alt="group">
+    <div class="taxfree"></div>
+        <div class="tax">
+            <img src="image/user%20(1)%201.png" alt="user">
+            <p class="snow">Войти</p>
+        </div>
+        <div class="tax">
+            <img src="image/heart%201.png" alt="heart">
+            <p class="snow">Избранное</p>
+        </div>
+        <div class="tax">
+            <img src="image/Group.png" alt="group">
+            <p class="snow">В корзине
+                нет товаров</p>
+        </div>
     </div>
 </div>
 
 
 <div class="carousel">
     <div class="carousel__nav">
-    <div class="carouse__container col-xl-7">
+    <div class="carouse__container ">
     <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
             <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class="active"></li>
@@ -150,25 +176,48 @@
         </a>
     </div>
     </div>
-    <div class="blocks col-xl-5">
-        <div class="block1">
-            <img src="image/Group%201540.png" alt="avt">
-
-
         </div>
+        <div class="block">
+            <div class="block1">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="image/avt-zap_main_page_v01 (1)йцу 5.png" class="img-fluid rounded-start" alt="alt">
+                    </div>
+                    <div class="col-md-8">
+                            <h5 class="card-title">Обгонная муфта
+                                гидротрансформатор</h5>
+                            <p class="card-text">BW-SP-2 SONNAX</p>
+                            <p class="card-text"><small class="text-muted">4 430₽</small></p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+
+
         <div class="block2">
-            <img src="image/Group%201541.png" alt="avt2">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="image/avt-zap_main_page_v01 (1)йцу 7.png" class="img-fluid rounded-start" alt="avp">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Комплект фрикционных дисков</h5>
+                            <p class="card-text">4 430₽</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
-    </div>
-    </div>
+
+            </div>
+
 </div>
+    <div class="div">
 
-
-<div class="top">
-    <div class="top__card">
-        <div class="top__top">
-<div class="card" style="width: 18rem;">
     <img src="image/avt-zap_main_page_v01 (1)йцу 1.png" class="card-img-top" alt="oil">
     <div class="card-body">
         <h5 class="card-title">Масла</h5>
@@ -176,10 +225,10 @@
             присадка в масло акпп</p>
         <a href="#" class="btn btn-primary">Перейти</a>
     </div>
-</div>
-        </div>
-<div class="top__top">
-<div class="card" style="width: 18rem;">
+
+
+
+
     <img src="image/avt-zap_main_page_v01 (1)йцу 2.png" class="card-img-top" alt="oil">
     <div class="card-body">
         <h5 class="card-title">Фильтры</h5>
@@ -187,10 +236,7 @@
             фильтр воздушный</p>
         <a href="#" class="btn btn-primary">Перейти</a>
     </div>
-</div>
-</div>
-        <div class="top__top">
-<div class="card" style="width: 18rem;">
+
     <img src="image/avt-zap_main_page_v01 (1)йцу 4.png" class="card-img-top" alt="oil">
     <div class="card-body">
         <h5 class="card-title">Радиаторы</h5>
@@ -198,17 +244,19 @@
             радиаторы</p>
         <a href="#" class="btn btn-primary">Перейти</a>
     </div>
-</div>
-</div>
-</div>
-</div>
+
+    </div>
+
+
 
 
     <div class="bottoms">
-        <div class="bottoms__type">
+        <div class="kop">
+        <div class="bottoms__type me-50">
         <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Подборки товаров</button>
         <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Акции</button>
         <button type="button" class="btn btn-primary"  data-bs-toggle="button" autocomplete="off">Сейчас покупают</button>
+        </div>
         </div>
         </div>
     <div class="grid__card__top">
@@ -279,12 +327,94 @@
     </div>
     <div class="mono">
         <div class="mono__img">
-        <img src="image/Group%20127.png" alt="Group">
+            <h5 class="slovo">3 ноября</h5>
+            <h6>Изменения на сайте</h6>
+            <p>Недавно на сайте мы ввели
+                очередную порцию изменений,
+                которые, как нам кажется, должны
+                улучшить функциональность сайта
+                и сделать его более удобным для
+                пользователей. Реакция посетителей
+                не заставила себя долго ждать...</p>
+
+        </div>
+        <div class="mono__img">
+            <h5 class="slovo">2 ноября</h5>
+            <h6>Вышла новая версия для
+                мобильных приложений</h6>
+            <p>Что нового в 2.0:
+                — добавлена история поиска;
+                — добавлена синхронизация с сервером;
+                — испрвление ошибок.</p>
+        </div>
+        <div class="mono__img">
+            <h5 class="slovo">1 ноября</h5>
+            <h6>Очередная порция обновлений для
+                мобильных приложений</h6>
+            <p>Что нового добавлено:
+                — поддержка пуш-уведомлений;
+                — разделы для покупателей;
+                — просмотр покупателя в заказах;
+                — возможность поиска;
+                — исправление ошибок.</p>
+        </div>
+        <div class="mono__img">
+            <h5 class="slovo">31 октября</h5>
+            <h6>Интерфейс заказов для покупателей
+                стал более функциональным</h6>
+            <p>Он позволяет выводить все
+                формируемые системой
+                уведомления(e-mail, смс, web) в
+                едином окне с системой удобной
+                фильтрации поиска.</p>
         </div>
     </div>
     <div class="end">
         <div class="end__end">
-            <img src="image/Group%2049.png" alt="Group">
+            <p>КАТАЛОГ</p>
+            <p>Каталог запчастей</p>
+            <p>Масла</p>
+            <p>Фильтра</p>
+            <p>Радиаторы</p>
+            <p>Sonnax</p>
+            <p>Manual</p>
+            <p>Новинки</p>
+            <p>Акции</p>
+        </div>
+        <div class="end__end">
+            <p>РУБРИКАТОР</p>
+            <p>Доставка</p>
+            <p>Оплата</p>
+            <p>Гарантия</p>
+            <p>Новости</p>
+            <p>Журнал</p>
+            <p>О магазине</p>
+            <p>Контактная информация</p>
+        </div>
+        <div class="end__end">
+            <p>ИНФОРМАЦИЯ</p>
+            <p>Пользовательское соглашение
+                об использовании персональных данных</p>
+            <p>Политика конфиденциальности</p>
+            <p>Соглашение на рассылку
+                рекламных материалов</p>
+            <p>Политика возвратов</p>
+            <p>Мы принимаем</p>
+            <img src="image/kisspng-mastercard-money-foothills-florist-business-visa-visa-mastercard-5b4d917e5dd4a1 1.png"alt="visa">
+        </div>
+        <div class="end__end">
+            <p>КОНТАКТЫ</p>
+            <p>+7 383 291 92 86</p>
+            <p>info@avt-zap.ru</p>
+            <p>Мы онлайн, воспользуйтесь</p>
+            <p>Подпишитесь на нашу расслыку и <br>
+                вы первыми узнаете о скидках и акциях</p>
+        </div>
+        <div class="end__end">
+            <p>АДРЕС</p>
+            <p>г. Новосибирск, <br>
+                ул. Планировочная, 5, офис 105</p>
+            <p>Форма обратной связи</p>
         </div>
     </div>
 
