@@ -11,6 +11,13 @@
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: #f9fafb;
 }
+.dropdown-toggle {
+    white-space: nowrap;
+    display: none;
+}
+.nav-link1 {
+    display: none;
+}
 
 .nav {
     display: flex;
