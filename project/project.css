@@ -21,7 +21,7 @@
 
 .nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 .container {
     display: flex;
@@ -197,7 +197,7 @@ margin: 10px;
     flex-direction: row;
 }
 .card-img, .card-img-bottom, .card-img-top {
-    width: 36%;
+    width: 29%;
 }
 .top {
     display: flex;
@@ -231,8 +231,9 @@ justify-content: flex-start;
 }
 .div {
     display: flex;
-    margin: 20px;
+    margin: 54px;
     border: 10px;
+    width: 600px;
 }
 
 .bottoms {
