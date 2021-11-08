@@ -99,6 +99,9 @@ margin: 10px;
     display: flex;
 
 }
+.col-md-8 {
+    padding: 10px;
+}
 .tax img {
     left: 0%;
     right: 0%;

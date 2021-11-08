@@ -369,6 +369,7 @@
     .seach {
         display: block;
         width: 320px;
+        padding: 5px;
 
 
         border-radius: 6px 0px 0px 6px;
@@ -447,6 +448,7 @@
         /*height: 330px;*/
         /*justify-content: space-between;*/
         display: block;
+        padding: 5px;
 
 
 
@@ -555,6 +557,7 @@
     .bottoms {
         display: flex;
         justify-content: flex-start;
+        padding: 10px;
 
 
     }
@@ -623,6 +626,7 @@
         color: white;
         margin-top: 2256px;
         width: 310px;
+        padding: 10px;
     }
     .end__end {
         display: block;
